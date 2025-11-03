@@ -16,7 +16,7 @@ public class Hurricane {
 		System.out.print("Enter hurricane category 1-5:   ");
 		category = input.nextInt();
 		
-		
+		// Displays corresponding tornado speeds
 		switch (category) {
 		case 1: System.out.println("74-95 mph  64-82 kts  119-153 km/hr"); break;
 		case 2: System.out.println("96-110 mph  83-95 kts  154-177 km/hr"); break;

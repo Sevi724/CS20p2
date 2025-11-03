@@ -1,7 +1,7 @@
 package SkillBuilders;
 
 import java.util.Scanner;
-import java.text.DecimalFormat;
+
 
 public class exersice1Printing {
 
@@ -11,8 +11,8 @@ public class exersice1Printing {
 	int copies;	
 	double price = 0;	
 	
-	DecimalFormat decimalFormat = new DecimalFormat("0.00");
-	String formattedPrice = decimalFormat.format(price);
+
+
 	
 	
 		try (//Create Scanner object
@@ -53,7 +53,7 @@ public class exersice1Printing {
 		
 				
 				
-				System.out.println("Total cost is: " + copies * formattedPrice);		
+				System.out.println("Total cost is:" + copies * price);		
 							
 		
 		
